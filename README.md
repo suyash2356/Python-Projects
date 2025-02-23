@@ -4,7 +4,7 @@ This repository contains small Python projects that I built to practice my progr
 
 ## 📌 Projects
 
-### 1️⃣ Task Manager
+### 1️) Task Manager
 A simple task manager that allows users to add, update, delete, and mark tasks as completed.
 **Features:**
 - Add and manage tasks easily.
@@ -12,20 +12,26 @@ A simple task manager that allows users to add, update, delete, and mark tasks a
 - View completed and pending tasks.
  
 
-### 2️⃣ Menu-Driven Calculator
+### 2️) Menu-Driven Calculator
 A command-line calculator for performing basic mathematical operations.
 **Features:**
 - Supports addition, subtraction, multiplication, and division.
 - Simple menu-driven interface.
  
 
-### 3️⃣ File Organizer
+### 3️) File Organizer
 A tool that organizes files in a directory based on file type.
 
 **Features:**
 - Automatically sorts files into categorized folders.
 - Supports multiple file types.
+
  
+ ### 4) Number Guessing Game
+A game in which user have to guess the number from 1 to 100.
+**Features:**
+- Code display, how user answer is away or close to correct answer after each guessing.
+- After final guessing of correct number,the number of attempt required is diplay.
 
 ## 📂 How to Use
 1. **Clone the Repository:**
