@@ -29,22 +29,27 @@ A game in which user have to guess the number from 1 to 100.
 ### 4)AI Chatbot using OpenAI API
 This is a chatbot built using Python and the OpenAI API, which allows users to have interactive conversations 
 with an AI model. The chatbot takes user input, sends it to OpenAI’s API, and returns AI-generated responses.
+
 **How It Works:**
 Install the required package:
 ```sh
 pip install openai
 ```
+
 **Get the OpenAI API Key:**
 - Create an account on OpenAI and generate an API key.
 - Store the API key securely in your script or use environment variables.
+  
 **Implement the Chatbot**
 - Import the OpenAI module and configure the API key.
 - Take user input and send it to the OpenAI API using openai.ChatCompletion.create().
 - Retrieve the AI-generated response and display it in a conversational format.
+  
 **Handle Errors and Optimization**
 - Implement error handling for API request failures.
 - Use efficient models like "gpt-3.5-turbo" for faster responses.
 - Ensure proper input validation and user-friendly interactions.
+  
 **How to Build Your Own**
 - Install Python and the OpenAI library.
 - Get an API key from OpenAI and integrate it into your script.
@@ -58,6 +63,7 @@ pip install openai
 Jarvis is a voice-activated personal assistant built using Python, integrating real-time speech recognition, system automation, and AI-powered responses via OpenAI’s GPT API.
 
 This project was created as a learning journey, exploring how various tools and APIs can be combined to build a real-world assistant — much like the fictional "Jarvis" from Iron Man. It uses libraries like vosk, pyttsx3, openai, and sounddevice, with extensive help from online documentation and AI tools like ChatGPT.
+
 📌 Features
 - 🎙️ Wake-word detection and continuous speech recognition
 - 💬 Conversational AI via OpenAI (GPT-3.5)
@@ -66,6 +72,7 @@ This project was created as a learning journey, exploring how various tools and 
 - 📁 Open system apps (Notepad, Calculator, Camera, etc.)
 - 💻 Shutdown, Restart, and Sleep commands
 - 🔗 Smart browser automation (Google, YouTube, LinkedIn, GitHub...)
+  
 **🔧 How I Built It**
 This project was built inside a virtual environment in VS Code. I learned and implemented the tools using:
 - Official library documentation
@@ -73,6 +80,7 @@ This project was built inside a virtual environment in VS Code. I learned and im
 - Tutorials and forums
 - Occasional help from ChatGPT when stuck or exploring ideas
 The idea wasn't to reinvent the wheel, but to build something real by stitching together resources, and this is exactly what this assistant represents.
+
 **🛠️ Setup Instructions**
 To run this project locally, follow these steps:
 
