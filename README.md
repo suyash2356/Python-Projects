@@ -31,18 +31,23 @@ This is a chatbot built using Python and the OpenAI API, which allows users to h
 with an AI model. The chatbot takes user input, sends it to OpenAI’s API, and returns AI-generated responses.
 **How It Works:**
 Install the required package:
->pip install openai
+```sh
+pip install openai
+```
 **Get the OpenAI API Key:**
-Create an account on OpenAI and generate an API key.
-Store the API key securely in your script or use environment variables.
+- Create an account on OpenAI and generate an API key.
+- Store the API key securely in your script or use environment variables.
+
 **Implement the Chatbot**
-Import the OpenAI module and configure the API key.
-Take user input and send it to the OpenAI API using openai.ChatCompletion.create().
-Retrieve the AI-generated response and display it in a conversational format.
+- Import the OpenAI module and configure the API key.
+- Take user input and send it to the OpenAI API using openai.ChatCompletion.create().
+- Retrieve the AI-generated response and display it in a conversational format.
+
 **Handle Errors and Optimization**
-Implement error handling for API request failures.
-Use efficient models like "gpt-3.5-turbo" for faster responses.
-Ensure proper input validation and user-friendly interactions.
+- Implement error handling for API request failures.
+- Use efficient models like "gpt-3.5-turbo" for faster responses.
+- Ensure proper input validation and user-friendly interactions.
+
 **How to Build Your Own**
 Install Python and the OpenAI library.
 Get an API key from OpenAI and integrate it into your script.
