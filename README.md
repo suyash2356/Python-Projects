@@ -84,11 +84,11 @@ cd jarvis-assistant
  ```
 
 2. Set up a virtual environment:
-**Create a virtual environment (Windows)**
+-**Create a virtual environment (Windows)**
  ```sh
 python -m venv venv
  ```
-**Activate it**
+-**Activate it**
  ```sh
 venv\Scripts\activate
  ```
@@ -99,16 +99,16 @@ pip install -r requirements.txt
  ```
 (Note: Make sure you have vosk-model-small-en-us-0.15 or a similar Vosk model in the /model directory)
 
-4.** Add your OpenAI API key:**
-**Open the script and replace**
+4. Add your OpenAI API key:
+-**Open the script and replace**
  ```sh
 openai.api_key = "your-api-key-here"
  ```
-with your actual API key from https://platform.openai.com/
+-with your actual API key from https://platform.openai.com/
 
 5. Run the assistant:
-python jarvis.py
-🎙️ How to Use
+-python jarvis.py
+-🎙️ How to Use
 Say "Jarvis" to wake the assistant, then issue a command like:
 "Open Google"
 "Set reminder to call mom"
@@ -116,7 +116,7 @@ Say "Jarvis" to wake the assistant, then issue a command like:
 "Summarize https://some-news-site.com/article"
 "Shutdown"
 "Ask what is the capital of France?"
-The assistant listens for a wake word before accepting commands. If the wake word isn't detected, it keeps listening passively.
+-The assistant listens for a wake word before accepting commands. If the wake word isn't detected, it keeps listening passively.
 
 
 
