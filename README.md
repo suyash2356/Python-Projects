@@ -31,9 +31,6 @@ This is a chatbot built using Python and the OpenAI API, which allows users to h
 with an AI model. The chatbot takes user input, sends it to OpenAI’s API, and returns AI-generated responses.
 **How It Works:**
 Install the required package:
-bash
-Copy
-Edit
 >pip install openai
 **Get the OpenAI API Key:**
 Create an account on OpenAI and generate an API key.
