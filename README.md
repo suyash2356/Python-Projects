@@ -82,9 +82,9 @@ git clone https://github.com/your-username/jarvis-assistant.git
 cd jarvis-assistant
 
 2. Set up a virtual environment:
- Create a virtual environment (Windows)
+Create a virtual environment (Windows):
 python -m venv venv
- Activate it
+Activate it:
 venv\Scripts\activate
 
 3. Install dependencies:
