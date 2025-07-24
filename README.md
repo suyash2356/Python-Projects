@@ -78,22 +78,32 @@ The idea wasn't to reinvent the wheel, but to build something real by stitching 
 🛠️ Setup Instructions (Store the code file and virtual environment files in 1 separate folder)
 To run this project locally, follow these steps:
 1. Clone the repo:
+  ```sh
 git clone https://github.com/your-username/jarvis-assistant.git
 cd jarvis-assistant
+ ```
 
 2. Set up a virtual environment:
-Create a virtual environment (Windows):
+**Create a virtual environment (Windows)**
+ ```sh
 python -m venv venv
-Activate it:
+ ```
+**Activate it**
+ ```sh
 venv\Scripts\activate
+ ```
 
-3. Install dependencies:
+3. **Install dependencies**
+```sh
 pip install -r requirements.txt
+ ```
 (Note: Make sure you have vosk-model-small-en-us-0.15 or a similar Vosk model in the /model directory)
 
-4. Add your OpenAI API key
-Open the script and replace:
+4.** Add your OpenAI API key:**
+**Open the script and replace**
+ ```sh
 openai.api_key = "your-api-key-here"
+ ```
 with your actual API key from https://platform.openai.com/
 
 5. Run the assistant:
