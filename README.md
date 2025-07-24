@@ -54,21 +54,22 @@ Run the script in a loop to allow continuous conversation.
 For more details, refer to OpenAI API Documentation.
 
 
+
 ### 5) Jarvis — A Voice-Controlled AI Assistant in Python
 Jarvis is a voice-activated personal assistant built using Python, integrating real-time speech recognition, system automation, and AI-powered responses via OpenAI’s GPT API.
 
 This project was created as a learning journey, exploring how various tools and APIs can be combined to build a real-world assistant — much like the fictional "Jarvis" from Iron Man. It uses libraries like vosk, pyttsx3, openai, and sounddevice, with extensive help from online documentation and AI tools like ChatGPT.
 
 📌 Features
- 🎙️ Wake-word detection and continuous speech recognition
- 💬 Conversational AI via OpenAI (GPT-3.5)
- 📝 Reminders (save and recall anytime)
- 🌐 Webpage summarization
- 📁 Open system apps (Notepad, Calculator, Camera, etc.)
- 💻 Shutdown, Restart, and Sleep commands
- 🔗 Smart browser automation (Google, YouTube, LinkedIn, GitHub...)
+- 🎙️ Wake-word detection and continuous speech recognition
+- 💬 Conversational AI via OpenAI (GPT-3.5)
+- 📝 Reminders (save and recall anytime)
+- 🌐 Webpage summarization
+- 📁 Open system apps (Notepad, Calculator, Camera, etc.)
+- 💻 Shutdown, Restart, and Sleep commands
+- 🔗 Smart browser automation (Google, YouTube, LinkedIn, GitHub...)
 
-🔧 How I Built It
+**🔧 How I Built It**
 This project was built inside a virtual environment in VS Code. I learned and implemented the tools using:
 - Official library documentation
 - Example code snippets from vosk, openai, etc.
@@ -76,7 +77,7 @@ This project was built inside a virtual environment in VS Code. I learned and im
 - Occasional help from ChatGPT when stuck or exploring ideas
 The idea wasn't to reinvent the wheel, but to build something real by stitching together resources, and this is exactly what this assistant represents.
 
-🛠️ Setup Instructions
+**🛠️ Setup Instructions**
 To run this project locally, follow these steps:
 
 1. Clone the repo
@@ -115,20 +116,15 @@ python jarvis.py
 ```
 🎙️ How to Use
 Say "Jarvis" to wake the assistant, then issue a command like:
-
-"Open Google"
-
-"Set reminder to call mom"
-
-"What are my reminders?"
-
-"Summarize https://some-news-site.com/article"
-
-"Shutdown"
-
-"Ask what is the capital of France?"
-
+- "Open Google"
+- "Set reminder to call mom"
+- "What are my reminders?"
+- "Summarize https://some-news-site.com/article"
+- "Shutdown"
+- "Ask what is the capital of France?"
 The assistant listens for a wake word before accepting commands. If the wake word isn't detected, it keeps listening passively.
+
+
 
 ## 📂 How to Use
 1. **Clone the Repository:**
